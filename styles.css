@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+
+header {
+	width: 100vw;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: #fff;
+	z-index: 999;
+}
+
+.adress {
+	max-width: 1140px;
+	height: 60px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 auto;
+	top: 0;
+	left: 0;
+}
+
+header img {
+	width: 200px;
+}
+
+header ul {
+	list-style: none;
+	display: flex;
+	gap: 40px;
+	align-items: center;
+}
+
+header a {
+	text-decoration: none;
+	color: #222;
+	text-transform: uppercase;
+	font-size: 0.9em;
+}
+
+/* USLUGI */
+
+.uslugi {
+	background-image: linear-gradient(rgba(0, 22, 62, .7), rgba(0, 22, 62, .7)), url(./img/Chelenger.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-attachment: fixed;
+	padding-top: 60px;
+}
+
+
+.neuslugi {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 40px;
+}
+
+.uslugi p {
+	color: #fff;
+	text-align: center;
+	font-size: 2em;
+	font-weight: 800;
+	line-height: 1.5em;
+}
+
+.uslugi a {
+	color: #222;
+	background: #fff;
+	padding: 14px 36px;
+	border-radius: 30px;
+	text-transform: uppercase;
+	font-size: 12px;
+	text-decoration: none;
+	text-align: center;
+	box-shadow: 6px 6px 9px rgba(0, 0, 0, 0.4);
+	font-size: 1.1em;
+	font-weight: 600;
+}
+
+.about {
+	max-width: 1060px;
+	padding-top: 100px;
+	padding-bottom: 60px;
+	margin: 0 auto;
+}
+
+.about h2 {
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 2em;
+	font-weight: 700;
+}
+
+.about p {
+	font-size: 1.2em;
+	line-height: 1.7em;
+	margin-top: 60px;
+	text-align: justify;
+}
+
+/* SPISOK  */
+
+.spisok {
+	padding-top: 66px;
+	padding-bottom: 66px;
+	max-width: 1060px;
+	margin: 0 auto;
+}
+
+.spisok h2 {
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 2em;
+	font-weight: 700;
+	margin-left: 80px;
+	margin-right: 80px;
+}
+
+.spispisok {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 80px;
+}
+
+.firstli, .secondli {
+	width: calc(50% - 20px);
+}
+
+.firstli ul, .secondli ul {
+	list-style: none;
+}
+
+.firstli ul li, .secondli ul li {
+	font-size: 1.2em;
+	line-height: 1.7em;
+}
+
+.secondli {
+	white-space: nowrap;
+}
+
+/* PAPER  */
+
+.paper {
+	padding-top: 66px;
+	padding-bottom: 66px;
+	max-width: 1060px;
+	margin: 0 auto;
+}
+
+.paper h2 {
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 2em;
+	font-weight: 700;
+	margin-left: 80px;
+	margin-right: 80px;
+	margin-bottom: 60px;
+}
+
+.paper ul {
+	display: flex;
+	justify-content: space-evenly;
+	list-style: none;
+}
+
+
+.paper img {
+	width: 300px;
+	box-shadow: 5px 11px 16px rgba(0, 0, 0, .4);
+}
